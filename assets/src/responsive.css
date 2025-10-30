@@ -1,0 +1,111 @@
+/* ### HERO SECTION */
+/* Button Get Started */
+@media (max-width: 768px){
+    .button .sparkle {
+        width: 1.5rem;
+    }
+    .button .text_button {
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+/* Button Get Started */
+/* ### HERO SECTION */
+
+/* ### GALLERY SECTION */
+@media only screen and (max-width: 640px) and (orientation: portrait) {
+    .popup.active {
+        transform: translate(-50%, -50%) scale(1) rotate(90deg);
+        width: 95vh;
+        height: 95vw;
+    }
+
+    .large-image {
+        width: 90%;
+        height: 90%;
+    }
+}
+/* ### GALLERY SECTION */
+
+@media (min-width: 0px) and (max-width: 640px) {
+    .wish-nav {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 768px){
+    /*==================== WISH SECTION ====================*/
+    .wish-container, .logo-container, .maskot-container {
+        padding: 1rem;
+    }
+
+    .wish-nav {
+        position: absolute;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 30%;
+    }
+    .wish-nav button {
+        width: 28px;
+        height: 28px;
+        font-size: 1rem;
+        border: 3px solid rgba(11, 223, 219);
+    }
+    .wish-dots {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .wish-dot {
+        width: 6px;
+        height: 6px;
+    }
+    #wish-prev i::before {
+        content: "\f060"; 
+    }
+    #wish-next i::before {
+        content: "\f061";
+    }
+    
+    /*==================== WISH SECTION ====================*/
+
+    /*==================== FAQ SECTION ====================*/
+    .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+        .faq-section {
+        height: 830px;
+        padding: 0 0.5em;
+    }
+
+    .faq-section .text-h2 {
+        font-size: 11vw;
+        letter-spacing: normal;
+    }
+
+    .faq-section .text-p {
+        font-size: 1rem;
+        max-width: 90%;
+    }
+    .faq-section .button-with-icon {
+        margin-bottom: 3rem;
+    }
+    .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    /* .container-accordion {
+        margin: -20px 0 0 0;
+        width: 100%;
+    } */
+
+    .container-accordion li label i {
+        font-size: 1.2rem;
+        width: 25px;
+        height: 25px;
+    }
+}
+/* ### FAQ SECTION */

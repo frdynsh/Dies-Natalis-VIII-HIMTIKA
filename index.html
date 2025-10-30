@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dies Natalis VIII ー HIMTIKA ー Himpunan Mahasiswa Informatika UNSIKA</title>
+
+    <meta name="description" content="Rangkaian acara yang diselenggarakan untuk memperingati hari lahirnya HIMTIKA" />
+    <meta name="keywords" content="HIMTIKA, Dies Natalis VIII, Himpunan Mahasiswa Informatika, UNSIKA, Informatika" />
+    <meta name="author" content="HIMTIKA Unsika" />
+
+    <!-- ICON -->
+    <link rel="icon" href="assets/images/logo/logo-diesnat-no-text.png" type="image/png" />
+    <link rel="canonical" href="https://himtika.cs.unsika.ac.id" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/src/output.css">
+    <link rel="stylesheet" href="./assets/src/responsive.css">
+</head>
+<body>
+
+    <!-- START NAVBAR -->
+    <nav id="navbar" class="w-full absolute top-0 left-0 px-6 py-4 text-white z-25 transition-all duration-500 sm:px-16 lg:px-18 md:py-5 font-jakarta">
+        <div class="flex justify-between items-center selection:bg-white selection:text-selectionBlue">
+            <a href="#home" class="w-[126px] h-10 sm:w-[131px] sm:h-[45px] lg:w-[141px] lg:h-[55px]  transition-all duration-500 flex items-center">
+                <img src="assets/images/logo/navbar-image.svg" alt="navbar-image" class="w-full h-full" />
+            </a>
+            <div>
+                <button class="nav-icon block lg:hidden" id="hamburger" type="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+    
+                <div 
+                    class="hidden absolute top-[72px] sm:top-[77px] md:top-[85px] lg:top-[88px] right-0 left-0 py-3 shadow-lg z-20 lg:block lg:static lg:max-w-full lg:bg-transparent lg:shadow-none transition-all duration-500 ease-in-out" 
+                    id="nav-menu">
+                    <ul class="block lg:flex lg:gap-[70px] font-medium font-orbitron text-center uppercase">
+                        <li>
+                            <a href="/" class="w-full py-2 lg:py-0 lg:w-auto text-center group block cursor-pointer transition duration-300">
+                                <span class="inline-block py-1 lg:py-0 text-sm text-white
+                                            tracking-wide
+                                            border-b-2 border-transparent 
+                                            group-hover:border-b-white 
+                                            lg:group-hover:to-selectionBlue lg:group-hover:from-cyanBlue
+                                            group-hover:bg-linear-to-b group-hover:bg-clip-text group-hover:text-transparent group-hover:from-[#2A049C] group-hover:to-[#5F29FF] transition duration-300">
+                                Home
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#about" class="w-full py-2 lg:py-0 lg:w-auto text-center group block cursor-pointer transition duration-300">
+                                <span class="inline-block py-1 lg:py-0 text-sm text-white
+                                            tracking-wide
+                                            border-b-2 border-transparent 
+                                            group-hover:border-b-white 
+                                            lg:group-hover:to-selectionBlue lg:group-hover:from-cyanBlue
+                                            group-hover:bg-linear-to-b group-hover:bg-clip-text group-hover:text-transparent group-hover:from-[#2A049C] group-hover:to-[#5F29FF] transition duration-300">
+                                About us
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#documentation" class="w-full py-2 lg:py-0 lg:w-auto text-center group block cursor-pointer transition duration-300">
+                                <span class="inline-block py-1 lg:py-0 text-sm text-white
+                                            tracking-wide
+                                            border-b-2 border-transparent 
+                                            group-hover:border-b-white 
+                                            lg:group-hover:to-selectionBlue lg:group-hover:from-cyanBlue
+                                            group-hover:bg-linear-to-b group-hover:bg-clip-text group-hover:text-transparent group-hover:from-[#2A049C] group-hover:to-[#5F29FF] transition duration-300">
+                                History
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#faq" class="w-full py-2 lg:py-0 lg:w-auto text-center group block cursor-pointer transition duration-300">
+                                <span class="inline-block py-1 lg:py-0 text-sm text-white
+                                            tracking-wide
+                                            border-b-2 border-transparent 
+                                            group-hover:border-b-white 
+                                            lg:group-hover:to-selectionBlue lg:group-hover:from-cyanBlue
+                                            group-hover:bg-linear-to-b group-hover:bg-clip-text group-hover:text-transparent group-hover:from-[#2A049C] group-hover:to-[#5F29FF] transition duration-300">
+                                Gallery
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>   
+    <!-- END NAVBAR -->
+
+    <!-- START HERO SECTION -->
+    <section id="hero" class="bg-cover bg-center h-[130vh] transition-all duration-500 px-10 md:px-0" style="background-image:url('/assets/images/bg/bg-hero.png')">
+        <div class="font-jakarta h-screen flex justify-center items-center">
+            <div>
+                <div class="glow-blue mx-auto max-w-[336px] sm:max-w-[406px] md:max-w-[506px] md:max-h-[120px] w-full transition-all duration-500">
+                    <img src="./assets/images/title/hero-title.svg" alt="hero-title" class="mx-auto w-full h-full">
+                </div>
+                <p class="font-medium mx-auto max-w-[346px] md:max-w-full w-full italic tracking-wide text-[10px] sm:text-xs mt-3 xl:mt-6 text-white text-center transition-all duration-500 selection:bg-selectionBlue uppercase">
+                The Countdown has begun. <span class="md:block">In a sky full of stars, Informatics is ready to shine brighter than ever.</span> 
+                </p>
+                <button class="button flex items-center gap-2 px-4 sm:px-6 py-3 border-none origin-center relative cursor-pointer mt-4 bg-radial from-blueRadialOuter from-40% to-blueRadialInner mx-auto z-5">
+                    <div class="dots_border"></div>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        class="sparkle"
+                    >
+                        <path
+                        class="path"
+                        stroke-linejoin="round"
+                        stroke-linecap="round"
+                        stroke="black"
+                        fill="black"
+                        d="M14.187 8.096L15 5.25L15.813 8.096C16.0231 8.83114 16.4171 9.50062 16.9577 10.0413C17.4984 10.5819 18.1679 10.9759 18.903 11.186L21.75 12L18.904 12.813C18.1689 13.0231 17.4994 13.4171 16.9587 13.9577C16.4181 14.4984 16.0241 15.1679 15.814 15.903L15 18.75L14.187 15.904C13.9769 15.1689 13.5829 14.4994 13.0423 13.9587C12.5016 13.4181 11.8321 13.0241 11.097 12.814L8.25 12L11.096 11.187C11.8311 10.9769 12.5006 10.5829 13.0413 10.0423C13.5819 9.50162 13.9759 8.83214 14.186 8.097L14.187 8.096Z"
+                        ></path>
+                        <path
+                        class="path"
+                        stroke-linejoin="round"
+                        stroke-linecap="round"
+                        stroke="black"
+                        fill="black"
+                        d="M6 14.25L5.741 15.285C5.59267 15.8785 5.28579 16.4206 4.85319 16.8532C4.42059 17.2858 3.87853 17.5927 3.285 17.741L2.25 18L3.285 18.259C3.87853 18.4073 4.42059 18.7142 4.85319 19.1468C5.28579 19.5794 5.59267 20.1215 5.741 20.715L6 21.75L6.259 20.715C6.40725 20.1216 6.71398 19.5796 7.14639 19.147C7.5788 18.7144 8.12065 18.4075 8.714 18.259L9.75 18L8.714 17.741C8.12065 17.5925 7.5788 17.2856 7.14639 16.853C6.71398 16.4204 6.40725 15.8784 6.259 15.285L6 14.25Z"
+                        ></path>
+                        <path
+                        class="path"
+                        stroke-linejoin="round"
+                        stroke-linecap="round"
+                        stroke="black"
+                        fill="black"
+                        d="M6.5 4L6.303 4.5915C6.24777 4.75718 6.15472 4.90774 6.03123 5.03123C5.90774 5.15472 5.75718 5.24777 5.5915 5.303L5 5.5L5.5915 5.697C5.75718 5.75223 5.90774 5.84528 6.03123 5.96877C6.15472 6.09226 6.24777 6.24282 6.303 6.4085L6.5 7L6.697 6.4085C6.75223 6.24282 6.84528 6.09226 6.96877 5.96877C7.09226 5.84528 7.24282 5.75223 7.4085 5.697L8 5.5L7.4085 5.303C7.24282 5.24777 7.09226 5.15472 6.96877 5.03123C6.84528 4.90774 6.75223 4.75718 6.697 4.5915L6.5 4Z"
+                        ></path>
+                    </svg>
+                    <span class="text_button">Enter the galaxy</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- END HERO SECTION -->
+
+    <!-- START ABOUT SECTION -->
+    <section id="about" class="relative bg-cover bg-center h-[130vh] px-10 sm:px-16 lg:px-18 flex justify-center items-center transition-all duration-500 overflow-hidden" style="background-image:url('/assets/images/bg/bg-about-us.png')">
+        <div class="absolute top-0 bg-linear-to-b from-[#090030] to-50% w-full h-80 z-11"></div>
+        <div class="stars-container"></div>
+        <div class="font-jakarta relative z-12">
+            <div class="glow-blue mx-auto max-w-[336px] sm:max-w-[406px] md:max-w-[523px] md:max-h-[120px] w-full transition-all duration-500">
+                <img src="./assets/images/title/get-to-know-title.svg" alt="get-to-know-title" class="glow-blue w-full h-full">
+            </div>
+            <p class=" md:max-w-[800px] italic tracking-wide leading-[1.6] md:leading-normal text-xs md:text-sm mt-4 xl:mt-6 text-white text-justify sm:text-center transition-all duration-500 selection:bg-selectionBlue capitalize glow-blue">
+            Dies Natalis HIMTIKA merupakan rangkaian acara yang diselenggarakan dalam rangka memperingati hari lahirnya HIMTIKA, yang berdiri pada tanggal 16 Oktober 2017. Acara ini menjadi momen penting sebagai peringatan hari jadi HIMTIKA yang ke-8, sekaligus menjadi sarana untuk mempererat tali silaturahmi antar pengurus dan anggota.
+            </p>
+        </div>
+        <div class="absolute bottom-0 bg-linear-to-t from-[#151A5A]/70 to-30% w-full h-150 z-1"></div>
+    </section>
+    <!-- END ABOUT SECTION -->
+
+    <!-- START MAKE A WISH SECTION -->
+    <section id="wish-section" class="relative bg-cover bg-center w-full h-[130vh] px-7 sm:px-16 lg:px-18 flex justify-center items-center transition-all duration-500 z-1" style="background-image:url('/assets/images/bg/bg-make-wish.png')">
+        <div class="absolute top-40 md:top-8 right-0 z-2 max-w-[165px] sm:max-w-[200px] md:max-w-[250px] lg:max-w-[307px] transition-all duration-500">
+            <img src="assets/images/icons/planet.svg" alt="Planet" class="planet w-full h-full" />
+        </div>
+        <!-- Konten Slide -->
+        <div class="font-jakarta z-3 w-full">
+            <div class="relative wish-container max-w-[950px] min-h-[500px] w-full flex justify-center mx-auto bg-red-500">
+                <div class="max-w-[42px] md:max-w-12 md:max-h-[61px] absolute top-27 left-4 sm:top-30 sm:left-10 md:top-25 md:left-50">
+                    <img src="assets/images/icons/star-long.svg" alt="Star Long" class=" star-long w-full h-full" />
+                </div>
+                <div class="max-w-[38px] md:max-w-[47px] md:max-h-[47px] absolute top-54 right-2 sm:top-50 sm:right-8 md:top-53 md:right-58 z-1">
+                    <img src="assets/images/icons/star-wide.svg" alt="Star Wide" class="star-wide" />
+                </div>
+                <!-- WISH TITLE -->
+                <div class="wish-slide active mx-auto w-full" id="slide-1">
+                    <div class="glow-blue mx-auto max-w-[266px] sm:max-w-[356px] md:max-w-[384px] md:max-h-[120px] w-full transition-all duration-500">
+                        <img src="./assets/images/title/make-a-wish-title.svg" alt="get-to-know-title" class="glow-blue w-full h-full">
+                    </div>
+                    <p class="max-w-[590px] italic tracking-wide text-xs sm:text-sm mt-5 xl:mt-6 text-white text-center transition-all duration-500 selection:bg-selectionBlue capitalize glow-blue">
+                    kita rangkum sejuta ucapan baik yang ditujukkan kepada ulang tahun ke-8 himpunan mahasiswa informatika unsika.
+                    </p>
+                </div>
+                <!-- Pak Oman Komarudin - Dekan Fasilkom -->
+                <div class="wish-slide left mx-auto md:max-w-[600px] lg:max-w-[830px] w-full bg-green-500 transition-all duration-500" id="slide-2">
+                    <div class="glow-blue bg-blue-500 mx-auto max-w-[266px] sm:max-w-[366px] md:max-w-[489px] md:max-h-[120px] w-full transition-all duration-500">
+                        <img src="./assets/images/title/dekan-fasilkom-wish.svg" alt="dekan-wish-title" class="glow-blue w-full h-full">
+                    </div>
+                    <p class="italic tracking-wide text-xs sm:text-sm mt-5 xl:mt-6 text-white text-center transition-all duration-500 selection:bg-selectionBlue capitalize">
+                    HIMTIKA, Himpunan Mahasiswa Teknik Informatika, lahir dari semangat mahasiswa pada tahun 2012 dan tumbuh menjadi entitas resmi pada tahun 2017, memimpin dengan inovasi dalam teknologi di dalam kampus- Pak Oman Komarudin
+                    </p>
+                </div>
+                <!-- Pak Carudin - Kaprodi Informatika -->
+                <div class="wish-slide left mx-auto md:max-w-[600px] lg:max-w-[830px] w-full  bg-green-500" id="slide-3">
+                    <div class="glow-blue bg-blue-500 mx-auto max-w-[206px] sm:max-w-[366px] md:max-w-[369px] md:max-h-[120px] w-full transition-all duration-500">
+                        <img src="./assets/images/title/kaprodi-wish.svg" alt="kaprodi-wish-title" class="glow-blue w-full h-full">
+                    </div>
+                    <p class="italic tracking-wide text-xs sm:text-sm mt-5 xl:mt-6 text-white text-center transition-all duration-500 selection:bg-selectionBlue capitalize">
+                    HIMTIKA, Himpunan Mahasiswa Teknik Informatika, lahir dari semangat mahasiswa pada tahun 2012 dan tumbuh menjadi entitas resmi pada tahun 2017, memimpin dengan inovasi dalam teknologi di dalam kampus- pak carudin
+                    </p>
+                </div>
+                <!-- Ketua Pelaksana -->
+                <div class="wish-slide left max-w-[800px]" id="slide-4">
+                    <img src="./assets/images/title/ketua-pelaksana-wish.svg" alt="make-a-wish-title" class="mx-auto glow-blue">
+                    <p class="italic tracking-wide text-sm md:mt-2 xl:mt-6 text-white text-center transition-all duration-500 selection:bg-selectionBlue capitalize max-w-[800px]">
+                    HIMTIKA, Himpunan Mahasiswa Teknik Informatika, lahir dari semangat mahasiswa pada tahun 2012 dan tumbuh menjadi entitas resmi pada tahun 2017, memimpin dengan inovasi dalam teknologi di dalam kampus.
+                    </p>
+                </div>
+                <!-- Kahim HIMTIKA -->
+                <div class="wish-slide left max-w-[800px]" id="slide-5">
+                    <img src="./assets/images/title/kahim-himtika-wish.svg" alt="make-a-wish-title" class="mx-auto glow-blue">
+                    <p class="italic tracking-wide text-sm md:mt-2 xl:mt-6 text-white text-center transition-all duration-500 selection:bg-selectionBlue capitalize max-w-[800px]">
+                    HIMTIKA, Himpunan Mahasiswa Teknik Informatika, lahir dari semangat mahasiswa pada tahun 2012 dan tumbuh menjadi entitas resmi pada tahun 2017, memimpin dengan inovasi dalam teknologi di dalam kampus.
+                    </p>
+                </div>
+                <!-- Kahim HIMSIKA -->
+                <div class="wish-slide left max-w-[800px]" id="slide-6">
+                    <img src="./assets/images/title/kahim-himsika-wish.svg" alt="make-a-wish-title" class="mx-auto glow-blue">
+                    <p class="italic tracking-wide text-sm md:mt-2 xl:mt-6 text-white text-center transition-all duration-500 selection:bg-selectionBlue capitalize max-w-[800px]">
+                    HIMTIKA, Himpunan Mahasiswa Teknik Informatika, lahir dari semangat mahasiswa pada tahun 2012 dan tumbuh menjadi entitas resmi pada tahun 2017, memimpin dengan inovasi dalam teknologi di dalam kampus.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- tombol navigasi -->
+        <div class="wish-nav z-4">
+            <button id="wish-prev"><i class="fa-solid fa-arrow-up"></i></button>
+            <div class="wish-dots">
+                <span class="wish-dot wish-active" data-slide="0"></span>
+                <span class="wish-dot" data-slide="1"></span>
+                <span class="wish-dot" data-slide="2"></span>
+                <span class="wish-dot" data-slide="3"></span>
+                <span class="wish-dot" data-slide="4"></span>
+                <span class="wish-dot" data-slide="5"></span>
+            </div>
+            <button id="wish-next"><i class="fa-solid fa-arrow-down"></i></button>
+        </div>
+        <!-- tombol navigasi -->
+    </section>
+    <!-- END MAKE A WISH SECTION -->
+
+    <!-- LOGO SECTION -->
+    <section id="logo-section" class="relative bg-cover h-[130vh] px-7 sm:px-16 lg:px-18 flex justify-center items-center transition-all duration-500 z-1 selection:bg-selectionBlue" style="background-image:url('/assets/images/bg/bg-logo.png')">
+        <img src="assets/images/icons/planet.svg" alt="Planet" class="absolute top-8 left-0 planet z-2 rotate-180" />
+        <div class="relative font-jakarta z-3 min-h-[600px] max-w-[1000px] w-full flex justify-center items-center">
+            <img src="assets/images/icons/star-long.svg" alt="Star Long" class="absolute top-30 left-50 star-long" />
+            <img src="assets/images/icons/star-wide.svg" alt="Star Wide" class="absolute top-65 right-63 z-1 star-wide" />
+            <div class="logo-container max-w-[830px] w-full items-center">
+                <div class="logo-slide logo-active" id="slide-1">
+                    <img src="./assets/images/title/introducing-logo-title.svg" alt="introducing-logo-title" class="mx-auto glow-blue">
+                    <p class="max-w-[590px] italic tracking-wide text-sm md:mt-2 xl:mt-6 text-white text-center transition-all duration-500 capitalize">
+                    Mari kita lihat apa makna dibalik logo dies natalis himtika ke-VIII
+                    </p>
+                </div>
+                <!-- Logo Diesnat -->
+                <div class="logo-slide min-w-[830px] w-full left" id="slide-2">
+                    <img src="./assets/images/logo/diesnat-logo-slide.svg" alt="diesnat-logo-slide" class="mx-auto logo-diesnat">
+                </div>
+                <!-- Filosofi Logo -->
+                <div class="logo-slide left" id="slide-3">
+                    <h1 class="font-orbitron lg:text-5xl font-bold text-white text-center">FILOSOFI LOGO</h1>
+                    <div class="flex items-center gap-10 mt-7 w-full mx-auto">
+                        <img src="assets/images/logo/elemen-delapan.svg" alt="elemen-delapan" class="w-28">
+                        <div class="text-white">
+                            <h2 class="font-medium">Elemen Delapan</h2>
+                            <p class="italic tracking-wide text-sm mt-2 leading-snug text-justify capitalize">
+                            Elemen angka 8 dalam logo tidak hanya menunjukkan usia HIMTIKA yang ke-8, tetapi juga menyiratkan simbol tak hingga (infinity). mencerminkan semangat HIMTIKA yang berkelanjutan, kebersamaan yang tak terputus, serta perjuangan yang konsisten dari generasi ke generasi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Filosofi Logo -->
+                <div class="logo-slide left" id="slide-4">
+                    <h1 class="font-orbitron lg:text-5xl font-bold text-white text-center">FILOSOFI LOGO</h1>
+                    <div class="flex items-center gap-10 mt-7 max-w-[700px] w-full mx-auto">
+                        <img src="assets/images/logo/elemen-bintang.svg" alt="elemen-delapan" class="w-28">
+                        <div class="text-white">
+                            <h2 class="font-medium ">Elemen Bintang</h2>
+                            <p class="italic tracking-wide text-sm mt-3 leading-snug text-justify capitalize">
+                            Bintang yang terintegrasi di tengah angka 8 menjadi simbol arah, harapan, dan pencapaian. Ia merepresentasikan bahwa HIMTIKA memiliki nilai dan tujuan yang jelas sebagai kompas dalam setiap langkah organisasinya. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Filosofi Warna -->
+                <div class="logo-slide left" id="slide-5">
+                    <img src="./assets/images/title/filosofi-warna-title.svg" alt="introducing-logo-title" class="mx-auto glow-blue">
+                    <div class="flex items-center justify-center gap-5 mt-9 max-w-[700px] mx-auto">
+                        <div class="glow-blue w-64">
+                            <img src="assets/images/icons/palette-logo-diesnat.svg" alt="pallete-logo-diesnat">
+                        </div>
+                        <div class="text-white w-full flex flex-col gap-4">
+                            <div class="flex items-end gap-3 w-fit">
+                                <div class="max-w-[150px] glow-blue">
+                                    <img src="assets/images/icons/bright-azure-palette.svg" alt="bright-azure-palette" class="w-full glow-blue">
+                                </div>
+                                <div class="italic max-w-[400px] w-full">
+                                    <h2 class="font-medium text-sm glow-blue">Bright Azure</h2>
+                                    <p class="tracking-wide text-xs mt-1 leading-snug text-justify capitalize glow-blue">
+                                    Menghadirkan dinamisme dan energi yang kuat, melambangkan semangat modernitas dan progresivitas.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3 w-fit">
+                                <div class="max-w-[150px] glow-blue">
+                                    <img src="assets/images/icons/ice-blue-palette.svg" alt="ice-blue-palette" class="w-full glow-blue">
+                                </div>
+                                <div class="italic max-w-[400px] w-full">
+                                    <h2 class="font-medium text-sm glow-blue">Ice Blue</h2>
+                                    <p class="tracking-wide text-xs mt-1 leading-snug text-justify capitalize glow-blue">
+                                    Memancarkan harapan,  semangat, serta merefleksikan optimisme  untuk  masa depan yang cerah.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- tombol navigasi -->
+        <div class="absolute top-1/2 right-14 flex flex-col items-center gap-2.5 logo-nav z-4">
+            <button id="logo-prev"><i class="fa-solid fa-arrow-up"></i></button>
+            <div class="logo-dots">
+                <span class="logo-dot logo-active" data-slide="0"></span>
+                <span class="logo-dot" data-slide="1"></span>
+                <span class="logo-dot" data-slide="2"></span>
+                <span class="logo-dot" data-slide="3"></span>
+                <span class="logo-dot" data-slide="4"></span>
+            </div>
+            <button id="logo-next"><i class="fa-solid fa-arrow-down"></i></button>
+        </div>
+        <!-- tombol navigasi -->
+        <div class="absolute bottom-0 bg-linear-to-t from-[#061644] to-50% w-full h-80 z-5"></div>
+    </section>
+    <!-- LOGO SECTION -->
+
+    <!-- MASKOT SECTION -->
+    <section id="maskot-section" class="relative bg-cover h-[130vh] px-7 sm:px-16 lg:px-18 flex justify-center items-center transition-all duration-500 z-1 selection:bg-selectionBlue text-white" style="background-image:url('/assets/images/bg/bg-maskot.png')">
+        <img src="assets/images/icons/planet.svg" alt="Planet" class="absolute top-8 right-0 planet z-6" />
+        <div class="relative font-jakarta z-3 min-h-[600px] max-w-[1000px] w-full flex justify-center items-center">
+            <img src="assets/images/icons/star-long.svg" alt="Star Long" class="absolute top-20 left-50 star-long" />
+            <img src="assets/images/icons/star-wide.svg" alt="Star Wide" class="absolute top-45 right-63 z-1 star-wide" />
+            <div class="maskot-container w-full items-center">
+                <div class="maskot-slide maskot-active" id="slide-1">
+                    <img src="./assets/images/title/maskot-title.svg" alt="maskot-title" class="mx-auto glow-blue">
+                    <p class="max-w-[590px] italic tracking-wide text-sm md:mt-2 xl:mt-6  text-center transition-all duration-500 capitalize">
+                    Let’s guess, who’s  hiding behind the stars.
+                    </p>
+                </div>
+                <!-- Astro 1 -->
+                <div class="maskot-slide min-w-[830px] w-full left" id="slide-2">
+                    <img src="./assets/images/maskot/Astro-1.svg" alt="astro-1" class="mx-auto logo-diesnat">
+                </div>
+                <!-- Astro 2 -->
+                <div class="maskot-slide min-w-[830px] w-full left" id="slide-3">
+                    <img src="./assets/images/maskot/Astro-2.svg" alt="astro-2" class="mx-auto logo-diesnat">
+                </div>
+                <!-- Secret Stars -->
+                <div class="maskot-slide max-w-[880px] mx-auto w-full left" id="slide-4">
+                    <h1 class="font-orbitron lg:text-5xl font-bold  text-center leading-15">THE SECRET BEHIND THE STARS IS NO LONGER HIDDEN.</h1>
+                    <p class="italic tracking-wide text-sm mt-3 leading-snug text-center text-white capitalize">
+                    It’s astroooo, he’s a arctic fox from cyro quadrant. 
+                    <span class="block">Let’s dive into the essence of Astro!!</span>
+                    </p>
+                </div>
+                <!-- Makna Maskot -->
+                <div class="maskot-slide left" id="slide-5">
+                    <img src="./assets/images/title/makna-maskot-title.svg" alt="makna-maskot-title" class="mx-auto glow-blue">
+                    <div class="flex flex-col items-center justify-center -gap-10 mt-9 max-w-[750px] w-full mx-auto italic">
+                        <!-- Emblem Bintang -->
+                        <div class="flex items-center gap-9 w-full">
+                            <div class=" object-contain w-32 h-30 flex items-center justify-center">
+                                <img src="./assets/images/maskot/emblem-bintang-astro.svg" alt="emblem-bintang-astro" class="max-w-full max-h-full glow-blue-2">
+                            </div>
+                            <div class="flex flex-col gap-2 w-full glow-blue">
+                                <h2 class="font-medium">Emblem Bintang</h2>
+                                <p class="tracking-wide font-light text-sm leading-snug text-justify capitalize">
+                                    Melambangkan arah, visi, dan harapan yang bersinar — menjadi pusat energi positif yang menuntun ke masa depan gemilang.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Sabuk -->
+                        <div class="flex group items-center gap-9 w-full">
+                            <div class=" object-contain w-32 h-30 flex items-center justify-center ">
+                                <img src="./assets/images/maskot/sabuk-astro.svg" alt="sabuk-astro" class="max-w-full max-h-full group-hover:cursor-progress glow-blue-2">
+                            </div>
+                            <div class="flex flex-col gap-2 w-full glow-blue">
+                                <h2 class="font-medium">Sabuk dengan Simbol Infinity</h2>
+                                <p class="tracking-wide font-light text-sm leading-snug text-justify capitalize">Mewakili kesinambungan, perjuangan lintas generasi, dan cita-cita besar yang terus berlanjut tanpa batas.</p>
+                            </div>
+                        </div>
+
+                        <!-- Antena -->
+                        <div class="flex items-center gap-9 w-full">
+                            <div class="object-contain w-32 h-30 flex items-center justify-center glow-blue-2">
+                                <img src="./assets/images/maskot/antena-astro.svg" alt="antena-astro" class="max-w-full max-h-full ">
+                            </div>
+                            <div class="flex flex-col gap-2 w-full glow-blue">
+                                <h2 class="font-medium">Antena di Helm</h2>
+                                <p class="tracking-wide font-light text-sm leading-snug text-justify capitalize">Simbol keterbukaan terhadap komunikasi, kolaborasi, dan konektivitas di era digital — memperkuat hubungan antar individu dan ide.</p>
+                            </div>
+                        </div>
+
+                        <!-- Arctic Fox -->
+                        <div class="flex items-center gap-9 w-full">
+                            <div class="object-contain w-32 h-30 flex items-center justify-center glow-blue-2">
+                                <img src="./assets/images/maskot/arctic-fox-astro.svg" alt="arctic-fox-astro" class="max-w-full max-h-full ">
+                            </div>
+                            <div class="flex flex-col gap-2 w-full glow-blue">
+                                <h2 class="font-medium">Arctic Fox</h2>
+                                <p class="tracking-wide font-light text-sm leading-snug text-justify capitalize">Arctic Fox melambangkan kecerdasan, kelincahan, dan kemampuan beradaptasi — karakteristik penting dalam menghadapi era digital yang dinamis.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- tombol navigasi -->
+        <div class="absolute top-1/2 right-14 flex flex-col items-center gap-2.5 maskot-nav z-7">
+            <button id="maskot-prev"><i class="fa-solid fa-arrow-up"></i></button>
+            <div class="maskot-dots">
+                <span class="maskot-dot maskot-active" data-slide="0"></span>
+                <span class="maskot-dot" data-slide="1"></span>
+                <span class="maskot-dot" data-slide="2"></span>
+                <span class="maskot-dot" data-slide="3"></span>
+                <span class="maskot-dot" data-slide="4"></span>
+            </div>
+            <button id="maskot-next"><i class="fa-solid fa-arrow-down"></i></button>
+        </div>
+        <!-- tombol navigasi -->
+    </section>
+    <!-- MASKOT SECTION -->
+    
+    <!-- GALLERY SECTION -->
+    <section id="gallery-section" class="relative bg-cover h-[130vh] px-7 sm:px-16 lg:px-18 flex justify-center items-center transition-all duration-500 selection:bg-selectionBlue" style="background-image:url('/assets/images/bg/bg-logo.png')">
+        <img src="assets/images/icons/planet.svg" alt="Planet" class="absolute top-8 left-0 planet z-1 rotate-180" />
+        <div class="font-jakarta z-1">
+            <img src="./assets/images/title/gallery-title.svg" alt="gallery-title" class="mx-auto glow-blue">
+            <p class="max-w-[700px] italic tracking-wide text-xs md:mt-2 xl:mt-6 text-white text-center transition-all duration-500 selection:bg-selectionBlue capitalize glow-blue mx-auto">
+            Each image tells a story — of harmony built, collaboration nurtured, and growth celebrated.<span class="block"> This gallery is more than just a visual archive — it's a reflection of HIMTIKA's journey in creating a meaningful and solid future.</span>
+            </p>
+
+            <!-- BENTO GRID -->
+            <div class="grid w-full h-full grid-cols-3 grid-rows-3 gap-3 mt-8 max-w-3xl max-h-[346px] mx-auto">
+                <div class="slide relative col-span-1 row-span-2 flex items-center justify-center rounded-[10px]">
+                    <div class="overlay font-jakarta italic text-sm">
+                        Klik untuk selengkapnya
+                    </div>
+                    <img src="assets/images/logo/logo-diesnat-gallery.png" alt="dokumentasi" class="image" />
+                </div>
+
+                <div class="slide relative col-span-1 row-span-1 flex items-center justify-center rounded-[10px]">
+                    <div class="overlay font-jakarta italic text-sm">
+                        Klik untuk selengkapnya
+                    </div>
+                    <img src="assets/images/logo/logo-diesnat-gallery.png" alt="dokumentasi" class="image" />
+                </div>
+
+                <div class="slide relative col-span-1 row-span-2 flex items-center justify-center rounded-[10px]">
+                    <div class="overlay font-jakarta italic text-sm">
+                        Klik untuk selengkapnya
+                    </div>
+                    <img src="assets/images/logo/logo-diesnat-gallery.png" alt="dokumentasi" class="image" />
+                </div>
+
+                <div class="slide relative col-span-1 row-span-2 flex items-center justify-center rounded-[10px]">
+                    <div class="overlay font-jakarta italic text-sm">
+                        Klik untuk selengkapnya
+                    </div>
+                    <img src="assets/images/logo/logo-diesnat-gallery.png" alt="dokumentasi" class="image" />
+                </div>
+
+                <div class="slide relative col-span-1 row-span-1 flex items-center justify-center rounded-[10px]">
+                    <div class="overlay font-jakarta italic text-sm">
+                        Klik untuk selengkapnya
+                    </div>
+                    <img src="assets/images/logo/logo-diesnat-gallery.png" alt="dokumentasi" class="image" />
+                </div>
+
+                <div class="slide relative col-span-1 row-span-1 flex items-center justify-center rounded-[10px]">
+                    <div class="overlay font-jakarta italic text-sm">
+                        Klik untuk selengkapnya
+                    </div>
+                    <img src="assets/images/logo/logo-diesnat-gallery.png" alt="dokumentasi" class="image" />
+                </div>
+            </div>
+            <!-- BENTO GRID -->
+
+            <!-- popup -->
+            <div class="popup z-999">
+                <span class="close-btn">
+                    <svg viewBox="0 0 56.326 56.326" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="Path_14" data-name="Path 14" d="M477.613,422.087l25.6-25.6a1.5,1.5,0,0,0-2.122-2.121l-25.6,25.6-25.6-25.6a1.5,1.5,0,1,0-2.121,2.121l25.6,25.6-25.6,25.6a1.5,1.5,0,0,0,2.121,2.122l25.6-25.6,25.6,25.6a1.5,1.5,0,0,0,2.122-2.122Z" transform="translate(-447.328 -393.924)" fill="#000000"></path> </g></svg>
+                </span>
+                <!-- arrows -->
+                <!-- <button class="arrow-btn left-arrow"><img src="assets/images/icons/arrow.png" alt="Right Arrow"></button>
+                <button class="arrow-btn right-arrow"><img src="assets/images/icons/arrow.png" alt="Left Arrow"></button> -->
+                <!-- image -->
+                <img src="assets/images/documentation/agate-1.webp" class="large-image" alt="Agate Documentation">
+                <!-- image-index -->
+                <h1 class="index">01</h1>
+            </div>
+        </div>
+        <div class="absolute bottom-0 bg-linear-to-t from-[#061644] to-50% w-full h-80"></div>
+    </section>
+    <!-- GALLERY SECTION -->
+
+    <!-- FAQ SECTION -->
+    <section id="faq-section" class="relative bg-cover h-[130vh] px-7 sm:px-16 lg:px-18 flex justify-center items-center transition-all duration-500 z-1 selection:bg-blueGradientButtonMiddle selection:text-white text-white" style="background-image:url('/assets/images/bg/bg-maskot.png')">
+        <img src="assets/images/icons/planet.svg" alt="Planet" class="absolute top-8 right-0 planet z-6" />
+        <div class="font-jakarta w-full">
+            <img src="./assets/images/title/faq-title.svg" alt="faq-title" class="mx-auto glow-blue">
+            <p class="max-w-[700px] italic tracking-wide text-sm mt-8 text-center transition-all duration-500 selection:bg-selectionBlue capitalize glow-blue mx-auto">
+            Jika anda memiliki pertanyaan lain, kontak kami dengan klik tombol di bawah ini.
+            </p>
+            <button class="button-with-icon-faq">
+                <svg
+                    class="icon-faq"
+                    id="Phone"
+                    viewBox="0 0 48 48"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                    class="color000000 svgShape"
+                        fill="currentColor"
+                        d="M34.6 28.9c-2.2-.6-4.4-.2-6.3 1.2l-2.2 1.6c-3.5-1.8-6.4-4.7-8.2-8.2l1.6-2.2c1.4-1.9 1.8-4.2 1.2-6.3L18.8 9c-.5-1.9-2.2-3.3-4.2-3.3h-3C9.2 5.7 6 8.8 6 12.8c0 4.4 2.1 9.5 6 14.4 3.9 4.9 8.9 8.1 14.4 10.2 4 1.4 7.1-.2 7.1-3.6v-3c0-2-1.4-3.7-3.3-4.2z"
+                    ></path>
+                </svg>
+                <span class="text-faq">Contact Us</span>
+            </button>
+
+            <div class="w-full sm:w-[50%] mx-auto mt-10 ">
+                <ul class="container-accordion right-column flex flex-col gap-3 w-full relative z-2 font-jakarta italic">
+                    <li class="list-none w-auto p-2 lg:p-2.5 bg-white rounded-3xl text-sm capitalize">
+                        <input
+                            type="checkbox"
+                            name="accordion"
+                            id="fourth"
+                            class="accordion-toggle"
+                        />
+                        <label id="faq" for="fourth" class="flex items-center font-medium justify-between cursor-pointer py-1 px-4 text-black"
+                            >Apa itu Dies Natalis?<i
+                            class="fa-solid fa-circle-arrow-down bg-linear-180/oklch from-blueGradientButtonStart via-blueGradientButtonMiddle to-blueGradientButtonEnd"
+                            ></i
+                        ></label>
+                        <div class="content border border-t-2 border-t-blueRadialInner">
+                            <p class="text-black text-justify font-medium">
+                            Dies Natalis HIMTIKA merupakan rangkaian acara yang diselenggarakan dalam rangka memperingati hari lahirnya HIMTIKA, yang berdiri pada tanggal 16 Oktober 2017. Acara ini menjadi momen penting sebagai peringatan hari jadi HIMTIKA yang ke-8, sekaligus menjadi sarana untuk mempererat tali silaturahmi antar pengurus dan anggota.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+    <!-- FAQ SECTION -->
+
+    <!-- START FOOTER SECTION -->
+    <footer class="pt-9 lg:pt-12 pb-8 lg:pb-11 px-6 sm:px-16 md:px-16 lg:px-28 selection:bg-selectionBlue selection:text-white transition-all duration-500 font-jakarta italic overflow-hidden bg-cover bg-bottom" style="background-image: url('assets/images/bg/bg-footer.png')">
+        <div class="lg:container transition-all duration-500">
+            <div class="lg:flex lg:justify-between transition-all duration-500">
+                <div class="w-full lg:w-5/12 mb-8 text-slate-300 font-medium flex items-start justify-center lg:justify-normal transition-all duration-500 z-2">
+                    <div>
+                        <a href="#home" class="font-semibold text-2xl md:text-3xl lg:text-4xl transition-all duration-500 flex items-center gap-5 mb-5 flex-col justify-center">
+                            <span class="w-[206px] h-[206px] flex items-center justify-center bg-cover p-8" style="background-image:url('/assets/images/bg/bg-logo-footer.png')">
+                                <img src="assets/images/logo/dies-natalis-logo.svg" alt="diesnatalis-logo" class="w-full h-full" />
+                            </span>
+                            <div class="glow-blue">
+                                <img src="assets/images/title/dies-natalis-viii-title.svg" alt="dies-natalis-viii-title" >
+                            </div>
+                        </a>
+                        <div class="flex items-center justify-between mb-5">
+                            <!-- Instagram -->
+                            <a
+                            href="https://www.instagram.com/himtika_unsika?igsh=MTRzbWU4Zm5tYXFrZg=="
+                            target="_blank"
+                            class="w-10 h-10 mr-3 rounded-full flex justify-center items-center bg-white/10 text-white hover:bg-linear-180/oklch hover:from-blueGradientButtonStart  hover:to-selectionBlue hover:text-white hover:border-none"
+                            >
+                                <svg
+                                    role="img"
+                                    width="22"
+                                    class="fill-current"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <title>Instagram HIMTIKA</title>
+                                    <path
+                                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                                    />
+                                </svg>
+                            </a>
+
+                            <!-- Linkedin -->
+                            <a
+                            href="https://www.linkedin.com/company/himtika/"
+                            target="_blank"
+                            class="w-10 h-10 mr-3 rounded-full flex justify-center items-center bg-white/10 text-white hover:bg-linear-180/oklch hover:from-blueGradientButtonStart  hover:to-selectionBlue hover:text-white hover:border-none"
+                            >
+                                <svg 
+                                    role="img"
+                                    width="20" 
+                                    class="fill-current"
+                                    viewBox="0 0 24 24" 
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <mask id="mask0_747_41" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                    <path d="M24 0V24H0V0H24Z" fill="white"/>
+                                    </mask>
+                                    <g mask="url(#mask0_747_41)">
+                                    <path d="M22.2235 0H1.772C0.792 0 0 0.7735 0 1.73V22.265C0 23.222 0.792 24 1.772 24H22.2235C23.2035 24 24 23.222 24 22.27V1.73C24 0.773 23.203 0 22.2235 0ZM7.12 20.4515H3.558V8.9955H7.1205L7.12 20.4515ZM5.339 7.435C5.06781 7.43546 4.79918 7.38246 4.54849 7.27903C4.29779 7.17559 4.06995 7.02376 3.87798 6.83221C3.686 6.64065 3.53367 6.41314 3.4297 6.16267C3.32572 5.9122 3.27213 5.64369 3.272 5.3725C3.27213 5.10131 3.32572 4.8328 3.4297 4.58233C3.53367 4.33186 3.686 4.10435 3.87798 3.91279C4.06995 3.72124 4.29779 3.56941 4.54849 3.46597C4.79918 3.36254 5.06781 3.30954 5.339 3.31C5.88601 3.31 6.41061 3.5273 6.79741 3.91409C7.1842 4.30089 7.4015 4.82549 7.4015 5.3725C7.4015 5.91951 7.1842 6.44411 6.79741 6.83091C6.41061 7.2177 5.88601 7.435 5.339 7.435ZM20.4515 20.452H16.894V14.883C16.894 13.5565 16.8705 11.8455 15.042 11.8455C13.1905 11.8455 12.9095 13.2935 12.9095 14.789V20.4515H9.356V8.9955H12.769V10.5605H12.8155C13.289 9.6605 14.4515 8.7095 16.181 8.7095C19.786 8.7095 20.4515 11.0815 20.4515 14.1655V20.452Z" />
+                                    </g>
+                                </svg>
+                            </a>
+
+                            <!-- Youtube -->
+                            <a
+                            href="https://www.youtube.com/@himtikaofficial4428"
+                            target="_blank"
+                            class="w-10 h-10 mr-3 rounded-full flex justify-center items-center bg-white/10 text-white hover:bg-linear-180/oklch hover:from-blueGradientButtonStart  hover:to-selectionBlue hover:text-white hover:border-none"
+                            >
+                                <svg
+                                    role="img"
+                                    width="20"
+                                    class="fill-current"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <title>YouTube</title>
+                                    <path
+                                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                                    />
+                                </svg>
+                            </a>
+
+                            <!-- Tiktok -->
+                            <a
+                            href="https://www.tiktok.com/@himtika_unsika"
+                            target="_blank"
+                            class="w-10 h-10 rounded-full flex justify-center items-center bg-white/10 text-white hover:bg-linear-180/oklch hover:from-blueGradientButtonStart  hover:to-selectionBlue hover:text-white hover:border-none"
+                            >
+                                <svg
+                                    role="img"
+                                    width="20"
+                                    class="fill-current"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <title>TikTok</title>
+                                    <path
+                                    d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"
+                                    />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid sm:grid-cols-3 grid-cols-2 w-full lg:w-7/12 transition-all duration-500">
+                    <!-- kolom 1  -->
+                    <div class="w-full mb-8 text-white flex justify-center sm:justify-start lg:justify-start transition-all duration-500 z-2">
+                        <div>
+                            <h3 class="font-bold text-white text-lg mb-4 md:mb-6">
+                            Media
+                            </h3>
+                            <ul class="text-base">
+                                <li>
+                                    <a
+                                        href="https://himtika.cs.unsika.ac.id/"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >Berita
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://himtika.cs.unsika.ac.id/"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >Artikel HIMTIKA
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://himtika.cs.unsika.ac.id/"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >Beasiswa
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://himtika.cs.unsika.ac.id/"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >Kegiatan Mahasiswa
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- kolom 2 -->
+                    <div class="w-full mb-8 font-[Plus Jakarta Sans] text-white flex justify-center transition-all duration-500 z-2">
+                        <div>
+                            <h3 class="font-bold text-white text-lg mb-4 md:mb-6">Event</h3>
+                            <ul class="text-base">
+                                <li>
+                                    <a
+                                        href="https://himtika.cs.unsika.ac.id/open-project/"
+                                        target="_blank"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >Open Project
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://himtika.cs.unsika.ac.id/hgtc/"
+                                        target="_blank"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >HGTC
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://himtika.cs.unsika.ac.id/semantik_9/"
+                                        target="_blank"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >SEMANTIK 9.0
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://himtika.cs.unsika.ac.id/studyclub-2024/"
+                                        target="_blank"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >Study Club
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://himtika.cs.unsika.ac.id/pekan-it/"
+                                        target="_blank"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >PEKAN IT
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://himtika.cs.unsika.ac.id/lkmmpd/"
+                                        target="_blank"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >LKMM-PD
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://himtika.cs.unsika.ac.id/diesnatalis/"
+                                        target="_blank"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >Diesnatalis
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://himtika.cs.unsika.ac.id/it-bootcamp/"
+                                        target="_blank"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >IT Bootcamp
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- kolom 3 -->
+                    <div class="w-full mb-8 font-[Plus Jakarta Sans] text-white flex justify-center sm:justify-end lg:justify-end transition-all duration-500 z-2">
+                        <div>
+                            <h3 class="font-bold text-white text-lg mb-4 md:mb-6">
+                            Aplikasi Publik
+                            </h3>
+                            <ul class="text-base">
+                                <li>
+                                    <a
+                                        href="https://himtalks.vercel.app/himtalks"
+                                        target="_blank"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >HIMTALKS
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://himtika.cs.unsika.ac.id/hikode/"
+                                        target="_blank"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >Hikode
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://himtika.cs.unsika.ac.id/kalendar/"
+                                        target="_blank"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >Kalender
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://himtika.cs.unsika.ac.id/corporation/"
+                                        target="_blank"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >Corporation
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://himtika.cs.unsika.ac.id/corporation/studioIT.html"
+                                        target="_blank"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >Studio IT
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://himtika.cs.unsika.ac.id/dosen/"
+                                        class="inline-block text-sm sm:text-base mb-2 md:mb-4 hover:scale-125 hover:text-cyanBlue antialiased transform will-change-transform origin-left transition-all duration-500"
+                                        >Profil Tenaga Pendidik
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full pt-6 lg:pt-8 border-t-2 border-white transition-all duration-500">
+                <p class="font-medium text-base text-white text-center">
+                    Licensed, Registered, and Authorized by 
+                    <span class="flex gap-2 mt-1 items-center justify-center">
+                        <img
+                            src="assets/images/logo/HIMTIKA.png"
+                            width="40"
+                            height="40"
+                            alt="HIMTIKA"
+                        />  
+                        HIMTIKA 
+                    </span>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+    <!-- Button Back To HIMTIKA -->
+    <div class="fixed bottom-8 right-9 z-50">
+        <a href="https://himtika.cs.unsika.ac.id/">
+            <button class="Btn">
+                <div class="sign">
+                    <img
+                        src="assets/images/logo/HIMTIKA.png"
+                        width="40"
+                        height="40"
+                        alt="HIMTIKA"
+                    />  
+                </div>            
+                <div class="text flex justify-center items-center h-full">
+                    <h1 class="font-jakarta text-md font-normal leading-1 mt-2">Back To <span class="text-lg font-bold italic">HIMTIKA 2025</span></h1>
+                </div>
+            </button>
+        </a>
+    </div>
+    <!-- Button Back To HIMTIKA -->
+
+    <!-- px-6 sm:px-16 md:px-12 lg:px-18 -->
+
+    <!-- JawaScript -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
